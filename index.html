@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بيراميديا - Pyramedia | خدمات الأتمتة والذكاء الاصطناعي</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1>بيراميديا<span class="logo-en">PYRAMEDIA</span></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="#services" class="nav-link">الخدمات</a></li>
+                    <li><a href="#about" class="nav-link">من نحن</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                </ul>
+                <button class="lang-toggle" onclick="toggleLanguage()">EN</button>
+                <div class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2 class="hero-title">
+                        <span class="gradient-text">نحول أعمالك</span>
+                        <br>بقوة الذكاء الاصطناعي
+                    </h2>
+                    <p class="hero-subtitle">
+                        حلول أتمتة متطورة ووكلاء ذكاء اصطناعي مخصصة لتحسين كفاءة عملك وزيادة إنتاجيتك
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">ابدأ الآن</a>
+                        <a href="#services" class="btn btn-secondary">اكتشف خدماتنا</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="ai-illustration">
+                        <div class="ai-circle ai-circle-1"></div>
+                        <div class="ai-circle ai-circle-2"></div>
+                        <div class="ai-circle ai-circle-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">خدماتنا</h2>
+                <p class="section-subtitle">نقدم حلول شاملة للأتمتة والذكاء الاصطناعي</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>أتمتة العمليات الذكية</h3>
+                    <p>نقوم بأتمتة العمليات التجارية المعقدة باستخدام أحدث تقنيات الذكاء الاصطناعي، مما يوفر الوقت ويقلل الأخطاء.</p>
+                    <ul class="service-features">
+                        <li>أتمتة سير العمل</li>
+                        <li>معالجة البيانات الآلية</li>
+                        <li>تكامل الأنظمة</li>
+                    </ul>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">الأكثر طلباً</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3>وكلاء الذكاء الاصطناعي</h3>
+                    <p>نطور وكلاء ذكاء اصطناعي مخصصين لخدمة العملاء، التسويق، والمبيعات لتحسين تجربة عملائك.</p>
+                    <ul class="service-features">
+                        <li>روبوتات محادثة ذكية</li>
+                        <li>مساعدين افتراضيين</li>
+                        <li>تحليلات مدعومة بالذكاء الاصطناعي</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3>استشارات تحول رقمي</h3>
+                    <p>نساعدك في رسم خريطة طريق للتحول الرقمي وتبني تقنيات الذكاء الاصطناعي في مؤسستك.</p>
+                    <ul class="service-features">
+                        <li>تقييم الجاهزية الرقمية</li>
+                        <li>استراتيجية التحول</li>
+                        <li>التدريب والدعم</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 3h18v18H3zM3 9h18M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h3>تطوير حلول مخصصة</h3>
+                    <p>نبني حلول برمجية مخصصة تتكامل مع أنظمتك الحالية وتلبي احتياجاتك الفريدة.</p>
+                    <ul class="service-features">
+                        <li>تطبيقات ويب ذكية</li>
+                        <li>أنظمة إدارة مخصصة</li>
+                        <li>تكامل API</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">عميل راضٍ</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="250">0</div>
+                    <div class="stat-label">مشروع مكتمل</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="95">0</div>
+                    <div class="stat-label">نسبة الرضا %</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">دعم 7/24</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">من نحن</h2>
+                    <p class="about-description">
+                        <strong>بيراميديا</strong> هي شركة رائدة في مجال الأتمتة الذكية وحلول الذكاء الاصطناعي. نؤمن بقوة التكنولوجيا في تحويل الأعمال وتحسين الكفاءة التشغيلية.
+                    </p>
+                    <p class="about-description">
+                        مع فريق من الخبراء المتخصصين في الذكاء الاصطناعي وعلوم البيانات، نقدم حلول مبتكرة تساعد الشركات على البقاء في المقدمة في عصر التحول الرقمي.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-text">
+                                <h4>خبرة عميقة</h4>
+                                <p>فريق من المتخصصين في الذكاء الاصطناعي</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-text">
+                                <h4>حلول مبتكرة</h4>
+                                <p>تقنيات حديثة ومتطورة</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-text">
+                                <h4>دعم مستمر</h4>
+                                <p>نرافقك في كل خطوة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-card">
+                        <div class="card-content">
+                            <h3>رؤيتنا</h3>
+                            <p>أن نكون الشريك الأول للشركات في رحلة التحول الرقمي والذكاء الاصطناعي في المنطقة</p>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-content">
+                            <h3>مهمتنا</h3>
+                            <p>تمكين الشركات من تحقيق أقصى استفادة من تقنيات الذكاء الاصطناعي والأتمتة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تواصل معنا</h2>
+                <p class="section-subtitle">نحن هنا لمساعدتك في بدء رحلة التحول الرقمي</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>العنوان</h4>
+                            <p>القاهرة، مصر</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>البريد الإلكتروني</h4>
+                            <p>info@pyramedia.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>الهاتف</h4>
+                            <p>+20 123 456 7890</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="الاسم">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="البريد الإلكتروني">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="رقم الهاتف">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder="رسالتك"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>بيراميديا</h3>
+                    <p>نحول أعمالك بقوة الذكاء الاصطناعي</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#services">الخدمات</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>خدماتنا</h4>
+                    <ul>
+                        <li>أتمتة العمليات</li>
+                        <li>وكلاء الذكاء الاصطناعي</li>
+                        <li>استشارات تحول رقمي</li>
+                        <li>تطوير حلول مخصصة</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 بيراميديا - Pyramedia. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
